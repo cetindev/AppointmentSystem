@@ -15,11 +15,13 @@ The picture below is the console image of the assignment.
 It is enough to enter with a number.If you want to exit the program, you must also press 0.
 Because in my code, I made the console return in an infinite loop, and the user should only do one operation and reach other operations.
 We also use files in all processes. We either receive or print the data
+
 ![Ekran Alıntısı](https://user-images.githubusercontent.com/57585087/85201138-a86ac780-b305-11ea-8659-686dcaaec480.PNG)
 
 In the 2nd picture below, the user performs the operation written by pressing 1 and adds an appointment. In order to add an appointment, the registration number of a desired academician is required, since the registration numbers are unique, there is no problem.
 Similarly, we read this process by reading the data in the appointment.txt file and printing it on the screen.
 In the code I wrote, I collect the data in one line and save all its information and there is only a space between each information, and I throw it into a series with the split method, we receive that data one by one and we can reach the information of the selected person by comparing the registry or number in this way.
+
 ![Ekran Alıntısı002](https://user-images.githubusercontent.com/57585087/85201140-a99bf480-b305-11ea-8ed7-f372cbb354ef.PNG)
 
 If two points between date (.) And hour and minute (:) are noted while making an appointment, no problem will arise.
@@ -31,17 +33,21 @@ The information in the files has been done as in the homework and each line repr
 In the picture below; Displays all the appointments of the academic belonging to the registration number entered.
 It reads this data from the file and outputs it to the screen.
 At the same time, the user can evaluate the dates by making an inference.
+
 ![Ekran Alıntısı2](https://user-images.githubusercontent.com/57585087/85201142-a99bf480-b305-11ea-97a2-c1ae85b70488.PNG)
 
 It also displays the total number of appointments of the academic belonging to the registration number entered.
 If he asks the date, start time, end time of the user to make the appointment later,
 If it is not written as 12.05.2000 it will give an error because I made it written from that format using the Date special class.
 It is mandatory to have two points between 12:00 hours (:)
+
 ![Ekran Alıntısı3](https://user-images.githubusercontent.com/57585087/85201143-aacd2180-b305-11ea-97c8-b78dfe589390.PNG)
 If there is an appointment within the entered date and time, it does not take the appointment and exits the program.
 There is an example in the picture below
+
 ![Ekran Alıntısı4](https://user-images.githubusercontent.com/57585087/85201144-aacd2180-b305-11ea-94ef-fca5e62d2e07.PNG)
 In the picture above, the user wanted to see all the appointments by pressing 2 and this information was read from the file and displayed on the screen in the appointment.txt file.
+
 ![Ekran Alıntısı5PNG](https://user-images.githubusercontent.com/57585087/85201146-ab65b800-b305-11ea-8c36-c336c105e134.PNG)
 
 ![Ekran Alıntısı6](https://user-images.githubusercontent.com/57585087/85201147-abfe4e80-b305-11ea-9be0-b7d44e415161.PNG)
